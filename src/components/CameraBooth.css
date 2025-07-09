@@ -1,0 +1,67 @@
+.camera-container {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .video-preview {
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .controls {
+    margin: 15px 0;
+  }
+  
+  .controls button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .controls button:hover {
+    background-color: #005fc1;
+  }
+  
+  .photo-grid {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  
+  .photo-grid img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #444;
+    border-radius: 6px;
+  }
+  
+  .save-button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #28a745;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-button:hover {
+    background-color: #1e7e34;
+  }
+  
+  .hidden-canvas {
+    display: none;
+  }
+  
